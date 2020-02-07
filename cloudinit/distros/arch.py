@@ -22,7 +22,7 @@ LOG = logging.getLogger(__name__)
 
 
 class Distro(distros.Distro):
-    locale_conf_fn = "/etc/locale.gen"
+    locale_conf_fn = "/etc/locale.conf"
     network_conf_dir = "/etc/netctl"
     resolve_conf_fn = "/etc/resolv.conf"
     init_cmd = ['systemctl']  # init scripts
